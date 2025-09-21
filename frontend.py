@@ -28,4 +28,4 @@ if uploaded_file is not None:
             else:
                 st.error(f"Error: {response.json().get('error', 'Unknown error')}")
         except requests.exceptions.ConnectionError:
-            st.error("❌ Could not connect to the backend. Make sure Flask is running on port 5000.")
+            st.error("Could not connect to the backend. Make sure Flask is running on port 5000.")
