@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-st.title("🎤 Audio Transcription App")
+st.title(" Audio Transcription App")
 st.write("Upload an audio file and get the transcribed text.")
 
 uploaded_file = st.file_uploader("Choose an audio file", type=["mp3", "wav", "m4a"])
